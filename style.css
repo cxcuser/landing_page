@@ -1,0 +1,48 @@
+
+
+.container-one {
+    display:flex;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    background-color: slategray;
+    color:white;
+    justify-content: center;
+}
+
+.top-left, .top-right {
+    width:35%;
+}
+
+.top-left {
+    margin-right:0;
+}
+
+.top-right .tr-head {
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+    gap:10px;
+}
+
+.tr-head a {
+   text-decoration: none; 
+   color: bisque;
+   font-size: small;
+}
+.graybox {
+    background-color: lightslategray;
+    height:40%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+
+    height:50px;
+    width:50px;
+    border: 2px solid blue;
+    border-radius: 6px;
+}
